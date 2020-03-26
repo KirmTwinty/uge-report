@@ -1,0 +1,62 @@
+% **************************************************************************************************************
+% Université Gustave Eiffel modèle
+%
+% Copyright (C) 2020 - Thibaud Toullier thibaud.toullier@univ-eiffel.fr
+%%
+% License:
+% This program is free software; you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation; either version 2 of the License, or
+% (at your option) any later version.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program; see the file COPYING.  If not, write to
+% the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+% Boston, MA 02111-1307, USA.
+%
+% **************************************************************************************************************
+% Note:
+%    * Please note that this style is not guaranteed, I did it quickly, so any contribution is welcome.
+%    * To use the model : \documentclass[<nameofcampus>]{uge-report} 
+%      where <nameofcampus> is one of "nantes" or "marne" for now.
+%    * You can then customize the first page. Please note that you can left the arguments empty.
+%      In that case, the line will not be displayed.
+% **************************************************************************************************************
+% To Do:
+%    * Clean-up code, make sure it works
+% **************************************************************************************************************
+\documentclass[nantes]{uge-report}              % Use the Nantes campus address
+\usepackage{lipsum}                             % Just for testing purposes do not include this
+
+%% 1st page options, the options can be left blank to remove the field in the page.
+\title{Titre du rapport}                        % Title of the report
+\author{John Doe}                               % Author of the report
+\city{Bouguenais}                               % City to sign the report (by default = campus)
+\date{26 mars 2020}                             % Date of the report
+\thankstext{Je remercie mes collègues pour ...} % Thanks part
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Titre de partie}
+\subsection{Titre de sous-partie}
+
+\lipsum[1-2]
+
+\subsection{Titre de sous-partie}
+\lipsum[3]
+\subsubsection{Titre de sous-sous partie}
+\lipsum[4-6]
+
+\paragraph{Titre de paragraphe}
+\lipsum[7]
+
+\end{document}

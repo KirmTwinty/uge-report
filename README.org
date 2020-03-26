@@ -1,0 +1,36 @@
+* Modèle de document LaTeX pour l'Université Gustave Eiffel
+
+Voici une classe LaTeX pour respecter la charte graphique et les modèles de documents Université Gustave Eiffel, 
+en particulier le modèle de rapport.
+
+Le rendu n'est pas garanti, je l'ai fait rapidement donc toute contribution est bienvenue ! ;)
+
+** Utilisation du modèle 
+
+Pour utiliser, le modèle il suffit d'inclure la ligne suivante : 
+#+BEGIN_SRC latex
+\documentclass[<campus>]{uge-report} 
+#+END_SRC
+Où l'option =<campus>= est "nantes" ou "marne" (par défaut) pour l'instant.
+
+** Personnaliser la première page
+
+Les champs de la première page peuvent être remplis avec les commandes suivantes. 
+Lorsque ces commandes sont laissées vide, la ligne n'est pas générée dans le document final.
+
+#+BEGIN_SRC latex
+%% Options de 1ère page 
+\title{Titre du rapport}                        % Titre du rapport
+\author{John Doe}                               % Auteur du rapport
+\city{Bouguenais}                               % Ville dans l'entête (par défaut = campus)
+\date{26 mars 2020}                             % Date du rapport
+\thankstext{Je remercie mes collègues pour ...} % Remerciements
+#+END_SRC
+
+** Tests
+Le document peut être testé (j'utilise =XeLaTeX=) avec le fichier =test.tex=.
+
+** English speakers
+Please see the comments in the =test.tex= file.
+
+
