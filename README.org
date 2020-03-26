@@ -6,8 +6,9 @@ en particulier le modèle de rapport.
 Le rendu n'est pas garanti, je l'ai fait rapidement donc toute contribution est bienvenue ! ;)
 
 ** Utilisation du modèle 
+Pour utiliser le modèle, il faut inclure dans le même dossier que votre document le fichier =uge-report.cls= ainsi que le dossier =img=.
 
-Pour utiliser, le modèle il suffit d'inclure la ligne suivante : 
+Ensuite il suffit d'inclure la ligne suivante dans votre document LaTeX : 
 #+BEGIN_SRC latex
 \documentclass[<campus>]{uge-report} 
 #+END_SRC
