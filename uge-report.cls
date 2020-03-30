@@ -9,7 +9,8 @@
 \RequirePackage{xifthen}% provides \isempty test
 \RequirePackage{tikz} % For drawing
 \RequirePackage{geometry} % For handling the margins
-\geometry{left=2cm, right=2.47cm, top=3.8cm, bottom=0.5cm}
+\geometry{left=2cm, right=2.47cm, top=2cm, bottom=2cm,includehead,includefoot,footskip=2.7cm}
+%\geometry{left=2cm, right=2.47cm, top=2cm, bottom=0cm,includehead,includefoot}
 \RequirePackage{fontspec}
 \RequirePackage{dejavu} % Tahoma not good at all...
 \setsansfont{DejaVu Sans}
