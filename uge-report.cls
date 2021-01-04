@@ -9,6 +9,7 @@
 \RequirePackage{xifthen}% provides \isempty test
 \RequirePackage{tikz} % For drawing
 \RequirePackage{geometry} % For handling the margins
+\RequirePackage[francais]{babel} % First indent of paragraphe and other French requirements
 \geometry{left=2cm, right=2.47cm, top=2cm, bottom=2cm,includehead,includefoot,footskip=2.7cm}
 %\geometry{left=2cm, right=2.47cm, top=2cm, bottom=0cm,includehead,includefoot}
 \RequirePackage{fontspec}
